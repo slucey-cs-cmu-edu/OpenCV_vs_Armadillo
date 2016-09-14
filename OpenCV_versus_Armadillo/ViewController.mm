@@ -3,7 +3,7 @@
 //  OpenCV_versus_Armadillo
 //
 //  Created by Simon Lucey on 9/16/15.
-//  Copyright (c) 2015 CMU_16432. All rights reserved.
+//  Copyright (c) 2016 CMU_16623. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -68,6 +68,21 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//==============================================================================
+// Function that needs to be filled in for 16623 Assignment 1
+// attempt to use the cblas_sgemv function in the Accelerate framework's BLAS
+// library in order to achieve efficient matrix by vector multiplication
+//
+// Should be equivalent to writing in Armadillo,
+//
+// y = A*x;
+//
+// where A is a matrix, and x & y are column vectors
+void MyMultiply(arma::fmat &A, arma::fvec &x, arma::fvec &y)
+{
+    
 }
 
 //==============================================================================
