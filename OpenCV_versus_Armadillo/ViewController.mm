@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-//#import "Accelerate/Accelerate.h"
 
 #ifdef __cplusplus
 #include "armadillo" // Includes the armadillo library
