@@ -7,12 +7,27 @@
 //
 
 #import "ViewController.h"
+//#import "Accelerate/Accelerate.h"
 
 #ifdef __cplusplus
 #include "armadillo" // Includes the armadillo library
 #include <opencv2/opencv.hpp> // Includes the opencv library
 #include <stdlib.h> // Include the standard library
 #endif
+
+//==============================================================================
+// Function that needs to be filled in for 16623 Assignment 1
+// attempt to use the cblas_sgemv function in the Accelerate framework's BLAS
+// library in order to achieve efficient matrix by vector multiplication
+//
+// Should be equivalent to writing in OpenCV,
+//
+// y = A*x;
+//
+// where A is a matrix, and x & y are column vectors
+//
+// The function is defined in the MyMultiply.cpp file
+void MyMultiply(cv::Mat &A, cv::Mat &x, cv::Mat &y);
 
 @interface ViewController ()
 
@@ -68,21 +83,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-//==============================================================================
-// Function that needs to be filled in for 16623 Assignment 1
-// attempt to use the cblas_sgemv function in the Accelerate framework's BLAS
-// library in order to achieve efficient matrix by vector multiplication
-//
-// Should be equivalent to writing in Armadillo,
-//
-// y = A*x;
-//
-// where A is a matrix, and x & y are column vectors
-void MyMultiply(arma::fmat &A, arma::fvec &x, arma::fvec &y)
-{
-    
 }
 
 //==============================================================================

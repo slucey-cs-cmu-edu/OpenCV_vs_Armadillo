@@ -43,12 +43,12 @@
 //// Make sure the directory has a trailing /
 #endif
 
-// #define ARMA_USE_WRAPPER
+//#define ARMA_USE_WRAPPER
 //// Comment out the above line if you're getting linking errors when compiling your programs,
 //// or if you prefer to directly link with LAPACK, BLAS + etc instead of the Armadillo runtime library.
 //// You will then need to link your programs directly with -llapack -lblas instead of -larmadillo
 
-// #define ARMA_BLAS_CAPITALS
+//#define ARMA_BLAS_CAPITALS
 //// Uncomment the above line if your BLAS and LAPACK libraries have capitalised function names (eg. ACML on 64-bit Windows)
 
 #define ARMA_BLAS_UNDERSCORE

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5229CAC11D8CD77F00FC74B9 /* MyMultiply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5229CAC01D8CD77F00FC74B9 /* MyMultiply.cpp */; };
 		52C34EEB1BAA2026003C48F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C34EEA1BAA2026003C48F8 /* main.m */; };
 		52C34EEE1BAA2026003C48F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C34EED1BAA2026003C48F8 /* AppDelegate.m */; };
 		52C34EF11BAA2026003C48F8 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52C34EF01BAA2026003C48F8 /* ViewController.mm */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5229CAC01D8CD77F00FC74B9 /* MyMultiply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyMultiply.cpp; sourceTree = "<group>"; };
 		52C34EE51BAA2026003C48F8 /* OpenCV_versus_Armadillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_versus_Armadillo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C34EE91BAA2026003C48F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C34EEA1BAA2026003C48F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -533,6 +535,7 @@
 				52C34EED1BAA2026003C48F8 /* AppDelegate.m */,
 				52C34EEF1BAA2026003C48F8 /* ViewController.h */,
 				52C34EF01BAA2026003C48F8 /* ViewController.mm */,
+				5229CAC01D8CD77F00FC74B9 /* MyMultiply.cpp */,
 				52C34EF21BAA2026003C48F8 /* Main.storyboard */,
 				52C34EF51BAA2026003C48F8 /* Images.xcassets */,
 				52C34EF71BAA2026003C48F8 /* LaunchScreen.xib */,
@@ -1112,6 +1115,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C34EF11BAA2026003C48F8 /* ViewController.mm in Sources */,
+				5229CAC11D8CD77F00FC74B9 /* MyMultiply.cpp in Sources */,
 				52C34EEE1BAA2026003C48F8 /* AppDelegate.m in Sources */,
 				52C34EEB1BAA2026003C48F8 /* main.m in Sources */,
 			);
